@@ -375,7 +375,11 @@ footer{
 #moi{
   color: white;
 }
-
+footer h2{
+  color : white;
+  text-align: center;
+  text-decoration: underline;
+}
 #RS{
   grid-area: 1 / 1 / 2 / 3; 
   text-align: center;
@@ -383,3 +387,12 @@ footer{
   text-decoration: underline;
 }
 
+@media (max-width: 1000px) {
+  #logo_footer{
+    display: none;
+  }
+  .footer{
+    width: 40%;
+  }
+   
+}
