@@ -122,7 +122,7 @@ nav{
 
 #box1{
   color:transparent;
-  background: url("/img/equipe.jpg");
+  background: url("img/equipe.jpg");
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -165,7 +165,7 @@ nav{
 
 #box2{
   color:transparent;
-  background: url("/img/histoire.jpg");
+  background: url("img/histoire.jpg");
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;

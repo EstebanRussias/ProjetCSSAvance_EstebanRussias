@@ -104,3 +104,25 @@ s7.addEventListener('mouseout', function(){
     big_s7.style.display = "none" ;
     console.log("mouseout");
 });
+
+// Saison 8
+s8.addEventListener('mouseover', function(){
+    big_s8.style.display = "block" ;
+    
+    console.log("mousover");
+});
+s8.addEventListener('mouseout', function(){
+    big_s8.style.display = "none" ;
+    console.log("mouseout");
+});
+
+// Saison 9
+s9.addEventListener('mouseover', function(){
+    big_s9.style.display = "block" ;
+    
+    console.log("mousover");
+});
+s9.addEventListener('mouseout', function(){
+    big_s9.style.display = "none" ;
+    console.log("mouseout");
+});
