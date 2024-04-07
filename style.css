@@ -268,7 +268,7 @@ h3{
 .big_cardVoiture{
   color: white;
   display: none;
-  background-color: rgb(24, 24, 198);
+  background-color: #2397b1;
   border-radius: 5px;
   margin: auto;
   width: 45vw;
@@ -287,7 +287,7 @@ h3{
 .cardVoiture{
   color: white;
   text-align: center;
-  background-color: rgb(24, 24, 198);;
+  background-color: #2397b1 ;
   margin: 25px;
   border-radius: 5px;
   width: 150px;
@@ -338,7 +338,7 @@ footer{
   width: 30vw;
 }
 #logo_footer{
-  border-right: 2px solid white ;
+  border-right: 2px solid #2397b1 ;
   padding: 50px;
 }
 #logo_footer img{
@@ -385,8 +385,15 @@ footer h2{
 #RS{
   grid-area: 1 / 1 / 2 / 3; 
   text-align: center;
-  color: white;
+  
   text-decoration: underline;
+}
+
+footer h2:hover{
+  color:#2397b1;
+  transition: 2s;
+  animation: bounce 1s ease infinite;
+
 }
 
 @media (max-width: 1000px) {
