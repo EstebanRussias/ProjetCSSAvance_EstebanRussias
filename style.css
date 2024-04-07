@@ -93,18 +93,19 @@ nav{
 
 /* Page 1  */
 #zone1{
-    background: url("https://mclaren.scene7.com/is/image/mclaren/P11%20rear%20dynamic:crop-2x1?wid=1920&hei=960");
+    /* background: url("https://mclaren.scene7.com/is/image/mclaren/P11%20rear%20dynamic:crop-2x1?wid=1920&hei=960");
     background-size: auto;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    background-color: black;
     height: 100vh;
 }
 
 #Top-Gear-Logo{
-  position: static;
+  position: relative;
   top: 15%;
-  left: 20vw;
-  width: 60vw;
+  left: 25vw;
+  width: 50vw;
   height: auto;
   z-index: 0;
 }
@@ -319,16 +320,11 @@ h3{
 
 
 @media (max-width: 1000px) {
-  #page3{
+  #Pagesaison{
     display: none;
 
   }
-  #Saison{
-    display: none;
-  }
-  
-  
- 
+   
 }
 
 footer{
