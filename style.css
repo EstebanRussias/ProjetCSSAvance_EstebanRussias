@@ -390,7 +390,7 @@ footer h2{
 }
 
 footer h2:hover{
-  color:#2397b1;
+  color:#2397b1; 
   transition: 2s;
   animation: bounce 1s ease infinite;
 
